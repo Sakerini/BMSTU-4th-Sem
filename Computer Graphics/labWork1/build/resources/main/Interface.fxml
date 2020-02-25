@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="890.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainController">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-base: #01A9DB;" BorderPane.alignment="CENTER">
+        <items>
+          <Button mnemonicParsing="false" onAction="#showInfo" style="-fx-base: LightBlue;" text="Info" />
+        </items>
+      </ToolBar>
+   </top>
+   <left>
+      <VBox prefHeight="545.0" prefWidth="305.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox cache="true" fillHeight="false" prefHeight="334.0" prefWidth="335.0">
+               <children>
+                  <VBox prefHeight="334.0" prefWidth="152.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="147.0" text="           SET ONE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="pointsSet1" prefHeight="326.0" prefWidth="152.0">
+                          <columns>
+                            <TableColumn fx:id="cellX1" prefWidth="75.0" style="-fx-base: #01A9DB;" text="X">
+                               <cellValueFactory><PropertyValueFactory property="x" /> </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn fx:id="cellY1" prefWidth="75.0" style="-fx-base: #01A9DB;" text="Y">
+                               <cellValueFactory><PropertyValueFactory property="y" /> </cellValueFactory>
+                            </TableColumn>
+                          </columns>
+                        </TableView>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="334.0" prefWidth="152.0">
+                     <children>
+                        <Label text="         SET TWO">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TableView fx:id="pointsSet2" prefHeight="327.0" prefWidth="116.0">
+                          <columns>
+                            <TableColumn fx:id="cellX2" prefWidth="75.0" style="-fx-base: #01A9DB;" text="X">
+                               <cellValueFactory><PropertyValueFactory property="x" /> </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn fx:id="cellY2" prefWidth="75.0" style="-fx-base: #01A9DB;" text="Y">
+                               <cellValueFactory><PropertyValueFactory property="y" /> </cellValueFactory>
+                            </TableColumn>
+                          </columns>
+                        </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <ComboBox fx:id="comboBox" prefHeight="26.0" prefWidth="304.0" promptText="Select Set" style="-fx-base: #01A9DB;" />
+            <TextField fx:id="inputFieldX" onAction="#addPoint" prefHeight="26.0" prefWidth="280.0" promptText="X:" />
+            <TextField fx:id="inputFieldY" onAction="#addPoint" promptText="Y:" />
+            <HBox prefHeight="30.0" prefWidth="305.0">
+               <children>
+                  <Button minHeight="26.0" minWidth="101.0" mnemonicParsing="false" onAction="#addPoint" style="-fx-base: #01A9DB;" text="ADD" />
+                  <Button minWidth="101.0" mnemonicParsing="false" onAction="#clearTable" style="-fx-base: #01A9DB;" text="CLEAR ALL" />
+                  <Button minWidth="101.0" mnemonicParsing="false" onAction="#draw" style="-fx-base: #01A9DB;" text="DRAW" />
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="136.0" prefWidth="305.0">
+               <children>
+                  <ImageView fx:id="imgView" fitHeight="119.0" fitWidth="321.0" layoutX="55.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@logo.png" />
+                     </image></ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane minHeight="428.0" minWidth="585.0" prefHeight="428.0" prefWidth="585.0">
+               <children>
+                  <Canvas fx:id="canvas" height="428.0" width="585.0" />
+               </children></Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ScrollPane maxHeight="100.0" maxWidth="585.0" minHeight="100.0" minWidth="585.0" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: LightBlue; -fx-scroll: LightBlue;" styleClass="LightBlue">
+                    <content>
+                      <AnchorPane maxHeight="1000.0" minHeight="100.0" minWidth="565.0" prefHeight="200.0" prefWidth="200.0" style="-fx-base: LightBlue;">
+                           <children>
+                              <TextArea fx:id="messenger" maxHeight="1000.0" minHeight="1000.0" prefHeight="1000.0" prefWidth="568.0" />
+                           </children></AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children></Pane>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
