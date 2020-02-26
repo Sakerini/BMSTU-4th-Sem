@@ -12,6 +12,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.paint.Color;
 import javafx.util.Callback;
 import javafx.util.converter.DoubleStringConverter;
 import objects.*;
@@ -21,6 +22,14 @@ import java.util.List;
 import java.util.ResourceBundle;
 
 public class MainController implements Initializable{
+
+    private final double POINT_RADIUS = 8;
+    private final Color FIRST_SET_POINT_COLOR = Color.BROWN;
+    private final Color FIRST_SET_CIRCLE_COLOR = Color.RED;
+    private final Color SECOND_SET_POINT_COLOR = Color.NAVY;
+    private final Color SECOND_SET_CIRCLE_COLOR = Color.BLUE;
+    private final Color RESULT_COLOR = Color.DARKORANGE;
+
     // Table
     @FXML
     public TableView<Point> pointsSet1;
@@ -188,6 +197,8 @@ public class MainController implements Initializable{
     public void clearTable(){
         pointsSet1.getItems().clear();
         pointsSet2.getItems().clear();
+        messenger.setText("Message:");
+        gc.clearRect(0,0, canvas.getWidth(), canvas.getHeight());
     }
 
     public void clearCanvas() {
@@ -235,9 +246,11 @@ public class MainController implements Initializable{
     public void draw(ActionEvent event){
         System.out.println("Drawing Started");
         messenger.setText("Message:");
+        gc.clearRect(0,0, canvas.getWidth(), canvas.getHeight());
 
         ObservableList<Point> pointsList1 = pointsSet1.getItems();
         ObservableList<Point> pointsList2 = pointsSet2.getItems();
+
         /*
 
         pointsList1.add(new Point(1,5));
@@ -255,6 +268,7 @@ public class MainController implements Initializable{
         pointsList2.add(new Point(-1,8));
 
          */
+
 
         if (pointsList1.isEmpty() || pointsList2.isEmpty()){
             giveErrorAlert("One of the List is empty!!!");
@@ -309,14 +323,23 @@ public class MainController implements Initializable{
             y_scale = x_scale;
         }
         messengerSetup(pictureToDraw);
+        gc.setStroke(FIRST_SET_CIRCLE_COLOR);
         drawCircle(pictureToDraw.getCircleOne());
+        gc.setStroke(SECOND_SET_CIRCLE_COLOR);
         drawCircle(pictureToDraw.getCircleTwo());
+        gc.setStroke(RESULT_COLOR);
         drawLines(pictureToDraw.getTangentOne());
         drawLines(pictureToDraw.getTangentTwo());
         drawLines(OT1);
         drawLines(OT2);
         drawLines(OT3);
         drawLines(OT4);
+
+        gc.setFill(FIRST_SET_POINT_COLOR);
+        drawPoints(points1);
+
+        gc.setFill(SECOND_SET_POINT_COLOR);
+        drawPoints(points2);
 
     }
     public void messengerSetup(Picture pictureToDraw){
@@ -367,6 +390,27 @@ public class MainController implements Initializable{
         convertCoordinates(one);
         convertCoordinates(two);
         gc.strokeLine(one.getX(), one.getY(), two.getX(), two.getY());
+    }
+
+    private void drawPoints(ObservableList<Point> list) {
+        if (points1.isEmpty() && points2.isEmpty()) {
+            giveErrorAlert("* There are not given points!");
+            return;
+        }
+
+        for (var point: list) {
+            final double x = point.getX();
+            final double y = point.getY();
+            Point tmp = new Point(x, y);
+            convertCoordinates(tmp);
+
+            drawPoint(tmp.getX(), tmp.getY());
+            gc.fillText("(" + x + ", " + y + ")", tmp.getX() - 35, tmp.getY() + 20);
+        }
+    }
+
+    private void drawPoint(double x, double y) {
+        gc.fillOval(x - POINT_RADIUS / 2, y - POINT_RADIUS / 2, POINT_RADIUS, POINT_RADIUS);
     }
 
     // Points
