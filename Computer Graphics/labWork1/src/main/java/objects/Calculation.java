@@ -154,10 +154,6 @@ public class Calculation {
         double yt2 = ((r * r) * (yp - b) + r * (xp - a) * Math.sqrt((xp - a) * (xp - a) + (yp - b) * (yp - b) - r * r))
                 / ((xp - a) * (xp - a) + (yp - b) * (yp - b)) + b;
 
-        Point t1 = new Point(xt1, yt1);
-        Point t2 = new Point(xt2, yt2);
-
-        Pair<Point, Point> pairPoint = new Pair<Point, Point>(t1, t2);
 
         //Correctness check
         double s = ((b - yt1) * (yp - yt1)) / ((xt1 - a) * (xt1 - xp));
@@ -167,6 +163,11 @@ public class Calculation {
             yt1 = yt2;
             yt2 = tmp;
         }
+
+        Point t1 = new Point(xt1, yt1);
+        Point t2 = new Point(xt2, yt2);
+        Pair<Point, Point> pairPoint = new Pair<Point, Point>(t1, t2);
+
 
         return pairPoint;
     }
@@ -199,6 +200,7 @@ public class Calculation {
     public static void main(String[] args) {
         MyCircle circle1 = new MyCircle(new Point(3, 1.5), 1);
         MyCircle circle2 = new MyCircle(new Point(8.5, 1.5), 0.5);
+
 
         Point intersectionPoint = findIntersectionPoint(circle1,circle2);
         System.out.println("Intersaction Point " + intersectionPoint.getX() + " | " + intersectionPoint.getY());
