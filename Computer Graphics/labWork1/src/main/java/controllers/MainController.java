@@ -23,12 +23,13 @@ import java.util.ResourceBundle;
 
 public class MainController implements Initializable{
 
-    private final double POINT_RADIUS = 8;
+    private final double POINT_RADIUS = 4;
     private final Color FIRST_SET_POINT_COLOR = Color.BROWN;
     private final Color FIRST_SET_CIRCLE_COLOR = Color.RED;
     private final Color SECOND_SET_POINT_COLOR = Color.NAVY;
     private final Color SECOND_SET_CIRCLE_COLOR = Color.BLUE;
     private final Color RESULT_COLOR = Color.DARKORANGE;
+    private final Color CENTER_COLOR = Color.DARKGREEN;
 
     // Table
     @FXML
@@ -266,10 +267,7 @@ public class MainController implements Initializable{
         pointsList2.add(new Point(1,11));
         pointsList2.add(new Point(5,6));
         pointsList2.add(new Point(-1,8));
-
-         */
-
-
+*/
         if (pointsList1.isEmpty() || pointsList2.isEmpty()){
             giveErrorAlert("One of the List is empty!!!");
             return;
@@ -336,10 +334,20 @@ public class MainController implements Initializable{
         drawLines(OT4);
 
         gc.setFill(FIRST_SET_POINT_COLOR);
-        drawPoints(points1);
-
+        //drawPoints(points1);
+        drawPoint(pictureToDraw.getPointList1().get(0));
+        drawPoint(pictureToDraw.getPointList1().get(1));
+        drawPoint(pictureToDraw.getPointList1().get(2));
         gc.setFill(SECOND_SET_POINT_COLOR);
-        drawPoints(points2);
+        //drawPoints(points2);
+        drawPoint(pictureToDraw.getPointList2().get(0));
+        drawPoint(pictureToDraw.getPointList2().get(1));
+        drawPoint(pictureToDraw.getPointList2().get(2));
+
+
+        gc.setFill(CENTER_COLOR);
+        drawPoint(pictureToDraw.getCircleOne().getCentr());
+        drawPoint(pictureToDraw.getCircleTwo().getCentr());
 
     }
     public void messengerSetup(Picture pictureToDraw){
@@ -411,6 +419,12 @@ public class MainController implements Initializable{
 
     private void drawPoint(double x, double y) {
         gc.fillOval(x - POINT_RADIUS / 2, y - POINT_RADIUS / 2, POINT_RADIUS, POINT_RADIUS);
+    }
+    private void drawPoint(Point point) {
+        Point tmp = new Point(point.getX(), point.getY());
+        convertCoordinates(tmp);
+        gc.fillOval(tmp.getX() - POINT_RADIUS / 2, tmp.getY() - POINT_RADIUS / 2, POINT_RADIUS, POINT_RADIUS);
+        gc.fillText("(" + String.format("%.2f",point.getX()) + ", " + String.format("%.2f",point.getY()) + ")", tmp.getX() - 35, tmp.getY() + 20);
     }
 
     // Points
