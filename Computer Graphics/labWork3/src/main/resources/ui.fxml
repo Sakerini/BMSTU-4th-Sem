@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="600.0" prefWidth="1062.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController.UIControl">
+  <children>
+    <MenuBar style="-fx-base: LightBlue;" VBox.vgrow="NEVER">
+      <menus>
+        <Menu fx:id="help" mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#creditsMsg" text="Credits" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+      <HBox prefHeight="570.0" prefWidth="1062.0">
+         <children>
+            <Canvas fx:id="canvas" height="569.0" width="753.0" />
+            <VBox prefHeight="560.0" prefWidth="295.0">
+               <children>
+                  <AnchorPane prefHeight="571.0" prefWidth="333.0" style="-fx-border-color: LightBlue;">
+                     <children>
+                        <ComboBox fx:id="algorithmComboBox" layoutX="37.0" layoutY="106.0" prefHeight="26.0" prefWidth="235.0" promptText="Pick an algorithm" style="-fx-base: LightBlue;" />
+                        <Label layoutX="70.0" layoutY="52.0" prefHeight="54.0" prefWidth="251.0" text="SETUP A LINE:">
+                           <font>
+                              <Font name="System Bold Italic" size="20.0" />
+                           </font>
+                        </Label>
+                        <ColorPicker fx:id="colorPicker" layoutX="37.0" layoutY="139.0" prefHeight="26.0" prefWidth="235.0" style="-fx-base: LightBlue;" />
+                        <TextField fx:id="textFieldX1" layoutX="96.0" layoutY="219.0" prefHeight="26.0" prefWidth="93.0" promptText="X1:" style="-fx-base: LightBlue;" />
+                        <TextField fx:id="textFieldX2" layoutX="96.0" layoutY="253.0" prefHeight="26.0" prefWidth="93.0" promptText="X2:" style="-fx-base: LightBlue;" />
+                        <TextField fx:id="textFieldY1" layoutX="196.0" layoutY="219.0" prefHeight="26.0" prefWidth="93.0" promptText="Y1:" style="-fx-base: LightBlue;" />
+                        <TextField fx:id="textFieldY2" layoutX="196.0" layoutY="253.0" prefHeight="26.0" prefWidth="93.0" promptText="Y2:" style="-fx-base: LightBlue;" />
+                        <Label layoutX="150.0" layoutY="203.0" text="Coordinates" />
+                        <Label layoutX="14.0" layoutY="224.0" text="Start point:" />
+                        <Label layoutX="18.0" layoutY="258.0" text="End point:" />
+                        <Button layoutX="113.0" layoutY="297.0" mnemonicParsing="false" onAction="#drawLine" style="-fx-base: LightbLUE;" text="DRAW" />
+                        <Button layoutX="203.0" layoutY="297.0" mnemonicParsing="false" onAction="#clearCanvas" style="-fx-base: lIGHTblUE;" text="CLEAR" />
+                        <Label layoutX="71.0" layoutY="335.0" prefHeight="54.0" prefWidth="251.0" text="SETUP A SUN:">
+                           <font>
+                              <Font name="System Bold Italic" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="389.0" text="Centre point:" />
+                        <TextField fx:id="textFieldXc" layoutX="104.0" layoutY="384.0" prefHeight="26.0" prefWidth="93.0" promptText="Xc:" style="-fx-base: LightBlue;" />
+                        <TextField fx:id="textFieldYc" layoutX="203.0" layoutY="384.0" prefHeight="26.0" prefWidth="93.0" promptText="Yc:" style="-fx-base: LightBlue;" />
+                        <TextField fx:id="textFieldDegrees" layoutX="104.0" layoutY="420.0" prefHeight="26.0" prefWidth="93.0" promptText="Degrees" style="-fx-base: LightBlue;" />
+                        <TextField fx:id="textFieldL" layoutX="203.0" layoutY="420.0" prefHeight="26.0" prefWidth="93.0" promptText="Lenght" style="-fx-base: LightBlue;" />
+                        <Button layoutX="212.0" layoutY="459.0" mnemonicParsing="false" onAction="#clearCanvas" style="-fx-base: lIGHTblUE;" text="CLEAR" />
+                        <Button layoutX="125.0" layoutY="459.0" mnemonicParsing="false" onAction="#drawSun" style="-fx-base: LightbLUE;" text="DRAW" />
+                        <Button layoutX="56.0" layoutY="513.0" mnemonicParsing="false" onAction="#showTime" style="-fx-base: LightBlue;" text="TimeHistory" />
+                        <Button layoutX="181.0" layoutY="513.0" mnemonicParsing="false" style="-fx-base: LightBlue;" text="ClearTimes" onAction="#clearTime" />
+                     </children>
+                  </AnchorPane>
+               </children></VBox>
+         </children>
+      </HBox>
+  </children>
+</VBox>
