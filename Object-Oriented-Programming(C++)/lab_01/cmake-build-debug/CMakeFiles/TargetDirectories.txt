@@ -1,0 +1,4 @@
+/home/sakerini/University/OOP/lab_01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sakerini/University/OOP/lab_01/cmake-build-debug/CMakeFiles/lab_01_deb.dir
+/home/sakerini/University/OOP/lab_01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sakerini/University/OOP/lab_01/cmake-build-debug/CMakeFiles/lab_01_deb_autogen.dir
