@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="768.0" maxWidth="1024.0" minHeight="768.0" minWidth="1024.0" prefHeight="768.0" prefWidth="1024.0" spacing="1.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.computergraphics.lab04.fxcontrollers.FXUIController">
+   <children>
+      <Pane prefHeight="755.0" prefWidth="1024.0">
+         <children>
+            <AnchorPane layoutX="709.0" prefHeight="748.0" prefWidth="316.0">
+               <children>
+                  <Label prefHeight="99.0" prefWidth="316.0" text="Сравнение алгоритмов рисующие окружности и эллипсы" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Label>
+                  <AnchorPane layoutX="5.0" layoutY="115.0" prefHeight="106.0" prefWidth="306.0" style="-fx-background-color: #e5e5e5;">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" text="Алг.:" />
+                        <ComboBox fx:id="algorithmComboBox" layoutX="78.0" layoutY="9.0" prefHeight="26.0" prefWidth="189.0" />
+                        <Label layoutX="11.0" layoutY="48.0" text="Цвет;" />
+                        <ColorPicker fx:id="colorPicker" layoutX="79.0" layoutY="43.0" prefHeight="26.0" prefWidth="189.0" />
+                        <RadioButton fx:id="circleRadioButton" layoutX="20.0" layoutY="77.0" mnemonicParsing="false" onAction="#selectCircle" selected="true" text="Окружность">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="figure" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton fx:id="ellipseRadioButton" layoutX="159.0" layoutY="77.0" mnemonicParsing="false" onAction="#selectEllipse" text="Эллипс" toggleGroup="$figure" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="5.0" layoutY="227.0" prefHeight="152.0" prefWidth="306.0" style="-fx-background-color: #e5e5e5;">
+                     <children>
+                        <Label layoutX="77.0" layoutY="14.0" prefHeight="16.0" prefWidth="152.0" text="Построение фигуры:" />
+                        <Label layoutX="14.0" layoutY="46.0" text="xc:" />
+                        <Label layoutX="14.0" layoutY="73.0" text="rx:" />
+                        <TextField layoutX="40.0" layoutY="42.0" prefHeight="26.0" prefWidth="95.0" fx:id="xcTextField" />
+                        <TextField fx:id="rxTextField" layoutX="40.0" layoutY="70.0" prefHeight="26.0" prefWidth="95.0" />
+                        <Label layoutX="163.0" layoutY="46.0" text="yc:" />
+                        <Label fx:id="ryLabel" layoutX="163.0" layoutY="73.0" text="ry:" visible="false" />
+                        <TextField fx:id="ycTextField" layoutX="189.0" layoutY="42.0" prefHeight="26.0" prefWidth="95.0" />
+                        <TextField fx:id="ryTextField" layoutX="189.0" layoutY="70.0" prefHeight="26.0" prefWidth="95.0" visible="false" />
+                        <Button layoutX="104.0" layoutY="108.0" mnemonicParsing="false" onAction="#drawFigure" text="Построить" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="5.0" layoutY="602.0" prefHeight="46.0" prefWidth="306.0" style="-fx-background-color: #e5e5e5;">
+                     <children>
+                        <Button fx:id="clearButton" layoutX="77.0" layoutY="9.0" mnemonicParsing="false" onAction="#clearCanvas" prefHeight="26.0" prefWidth="152.0" text="Очистить" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="5.0" layoutY="385.0" prefHeight="199.0" prefWidth="306.0" style="-fx-background-color: #e5e5e5;">
+                     <children>
+                        <Label layoutX="77.0" layoutY="14.0" prefHeight="16.0" prefWidth="152.0" text="Построение спектра:" />
+                        <Label layoutX="14.0" layoutY="46.0" text="xc:" />
+                        <Label layoutX="14.0" layoutY="74.0" text="rx:" />
+                        <TextField layoutX="40.0" layoutY="42.0" prefHeight="26.0" prefWidth="95.0" fx:id="xcSpectreTextField" />
+                        <TextField fx:id="rxSpectreTextField" layoutX="40.0" layoutY="70.0" prefHeight="26.0" prefWidth="95.0" />
+                        <Label layoutX="163.0" layoutY="46.0" text="yc:" />
+                        <Label fx:id="rySpectreLabel" layoutX="163.0" layoutY="74.0" text="ry:" visible="false" />
+                        <TextField fx:id="ycSpectreTextField" layoutX="189.0" layoutY="42.0" prefHeight="26.0" prefWidth="95.0" />
+                        <TextField fx:id="rySpectreTextField" layoutX="189.0" layoutY="70.0" prefHeight="26.0" prefWidth="95.0" visible="false" />
+                        <Button layoutX="104.0" layoutY="165.0" mnemonicParsing="false" onAction="#drawSpectre" text="Построить" />
+                        <Label layoutX="13.0" layoutY="104.0" text="dx:" />
+                        <TextField fx:id="dxSpectreTextField" layoutX="40.0" layoutY="101.0" prefHeight="26.0" prefWidth="95.0" />
+                        <Label fx:id="dySpectreLabel" layoutX="162.0" layoutY="103.0" text="dy:" visible="false" />
+                        <TextField fx:id="dySpectreTextField" layoutX="189.0" layoutY="101.0" prefHeight="26.0" prefWidth="95.0" visible="false" />
+                        <Label layoutX="13.0" layoutY="132.0" text="n:" />
+                        <TextField fx:id="nSpectreTextField" layoutX="40.0" layoutY="129.0" prefHeight="26.0" prefWidth="95.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Separator layoutX="706.0" layoutY="-4.0" orientation="VERTICAL" prefHeight="748.0" prefWidth="0.0" />
+            <Pane layoutX="14.0" layoutY="14.0" prefHeight="715.0" prefWidth="686.0" style="-fx-background-color: white;">
+               <children>
+                  <Canvas fx:id="canvas" height="715.0" width="686.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <HBox prefHeight="43.0" prefWidth="1024.0">
+         <children>
+            <Label text="BMSTU" />
+            <Pane prefHeight="16.0" prefWidth="718.0" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>
