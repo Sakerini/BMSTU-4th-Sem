@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="lab_02" targetName="lab_02" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4d0a8c9-c303-4616-8cdd-5d79171c7160" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1bAkExmzYGEps6MC9IN6SwsJYWz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="lab_02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_02" TARGET_NAME="lab_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_02" RUN_TARGET_NAME="lab_02">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4d0a8c9-c303-4616-8cdd-5d79171c7160" name="Default Changelist" comment="" />
+      <created>1588082177766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588082177766</updated>
+      <workItem from="1588082179345" duration="540000" />
+      <workItem from="1588088663880" duration="5082000" />
+      <workItem from="1588155343229" duration="64000" />
+      <workItem from="1588406737272" duration="15981000" />
+      <workItem from="1588750420323" duration="7669000" />
+      <workItem from="1588763681902" duration="3425000" />
+      <workItem from="1588842425378" duration="680000" />
+      <workItem from="1588930696657" duration="4111000" />
+      <workItem from="1588942184261" duration="4214000" />
+      <workItem from="1589207278209" duration="187000" />
+      <workItem from="1589287532576" duration="5575000" />
+      <workItem from="1589308616136" duration="2296000" />
+      <workItem from="1589367376470" duration="10105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588082718322">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="155" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1588082718322" />
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1589303657053">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1589303657053" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1589303657052">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1589303657052" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1589303657052">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1589303657052" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1589303657053">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1589303657053" />
+    <state x="434" y="36" width="488" height="723" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588762770329">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="434" y="36" width="488" height="723" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1588762770329" />
+    <state x="427" y="41" width="501" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1589288926622">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="427" y="41" width="501" height="713" key="refactoring.ChangeSignatureDialog/0.27.1366.741@0.27.1366.741" timestamp="1589288926622" />
+    <state x="347" y="176" key="run.anything.popup" timestamp="1588420822808">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="347" y="176" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1588420822808" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588763124649">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1588763124649" />
+  </component>
+</project>
