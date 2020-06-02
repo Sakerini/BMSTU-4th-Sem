@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab_03"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\Qt\;CMake Files\..\..\..\..\..\Qt\5.14.1\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Quick\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5QmlModels\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\;CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Network\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_03">
+				<Option output="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/lab_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QMLMODELS_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug"/>
+					<Add directory="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03"/>
+					<Add directory="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/lab_03_autogen/include"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtCore"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtGui"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtQuick"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtQmlModels"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtQml"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab_03"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_03/fast">
+				<Option output="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/lab_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QMLMODELS_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug"/>
+					<Add directory="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03"/>
+					<Add directory="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/lab_03_autogen/include"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtCore"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtGui"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtQuick"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtQmlModels"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtQml"/>
+					<Add directory="/home/sakerini/Qt/5.14.1/gcc_64/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab_03/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab_03_autogen">
+				<Option working_dir="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab_03_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/cmake-build-debug/lab_03_autogen/mocs_compilation.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/command.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/iappcommand.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/iappcommand.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/rotatecommand.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/rotatecommand.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/scalecommand.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/scalecommand.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/transfercommand.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/command/transfercommand.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/drawimplementater.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/drawimplementater.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/executor.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/executor.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/groupimplementater.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/groupimplementater.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/icommandexecute.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/icommandexecuteimplementer.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/loadimplementater.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/loadimplementater.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/maincontroller.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/maincontroller.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/motionimplementer.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/controller/motionimplementer.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/datamanager/viewerdatamanager.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/datamanager/viewerdatamanager.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/exception/error.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/factory/iabstractfactory.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/factory/model3dfactory.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/factory/model3dfactory.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/edge.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/edge.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/iedge.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/ipoint.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/model/builder/3dmodelBuilder.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/model/builder/3dmodelBuilder.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/model/builder/director.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/model/builder/imodelbuilder.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/model/imodel.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/model/model3d.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/model/model3d.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/point.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/geometry/point.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/io/ireader.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/io/ireaderimplementator.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/io/reader.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/io/reader.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/io/readerimplementator_stdio.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/io/readerimplementator_stdio.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/main.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/mainwindow.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/mainwindow.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/mainwindow.ui">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/patterns/observer/observer.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/patterns/observer/subject.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/patterns/observer/subject.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/camera/camera.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/camera/camera.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/drawer.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/drawer.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/drawermediator.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/drawermediator.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/imediator.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/iparticipant.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/scene/sceneobject.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/scene/sceneobject.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/scene/sceneobjectcomposite.cpp">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/ui/scene/sceneobjectcomposite.h">
+			<Option target="lab_03"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5QmlModels\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5QmlModels\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/sakerini/University/OOP/lab_3/lab_03Final/lab_03/../../../../../Qt/5.14.1/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.14.1\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

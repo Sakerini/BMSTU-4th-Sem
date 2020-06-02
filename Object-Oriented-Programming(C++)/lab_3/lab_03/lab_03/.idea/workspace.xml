@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="lab_03" targetName="lab_03" />
+      <config projectName="lab_03" targetName="lab_03_autogen" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24ce7ffa-6a2a-4c02-939b-568240b57b4b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1cRvTnac3V3TxuEDGV9ENJk38vp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="CMake Application.lab_03">
+    <configuration name="lab_03" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_03" TARGET_NAME="lab_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab_03" RUN_TARGET_NAME="lab_03">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab_03_autogen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab_03" TARGET_NAME="lab_03_autogen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.lab_03" />
+      <item itemvalue="CMake Application.lab_03_autogen" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24ce7ffa-6a2a-4c02-939b-568240b57b4b" name="Default Changelist" comment="" />
+      <created>1590504230877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590504230877</updated>
+      <workItem from="1590504232308" duration="152000" />
+      <workItem from="1590504527005" duration="1243000" />
+      <workItem from="1590505908561" duration="130000" />
+      <workItem from="1590565595069" duration="16813000" />
+      <workItem from="1590737938500" duration="20299000" />
+      <workItem from="1590761870787" duration="17300000" />
+      <workItem from="1590838133826" duration="388000" />
+      <workItem from="1590847320593" duration="3843000" />
+      <workItem from="1590872213089" duration="21000" />
+      <workItem from="1590911190335" duration="5094000" />
+      <workItem from="1591081232590" duration="4355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1590777616678">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="491" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.25.1366.743@0.25.1366.743" timestamp="1590777616678" />
+    <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590773863243">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="416" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1366.743@0.25.1366.743" timestamp="1590773863243" />
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1591117034848">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.25.1366.743@0.25.1366.743" timestamp="1591117034848" />
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1590577906881" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1591117034848">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.25.1366.743@0.25.1366.743" timestamp="1591117034848" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1590577906880" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1591117034848">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.25.1366.743@0.25.1366.743" timestamp="1591117034848" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1590577906879" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1591117034848">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.25.1366.743@0.25.1366.743" timestamp="1591117034848" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1590577906881" />
+    <state x="172" y="32" key="SettingsEditor" timestamp="1590505985019">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="32" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1590505985019" />
+    <state x="413" y="86" width="529" height="620" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590777198237">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="413" y="86" width="529" height="620" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1366.743@0.25.1366.743" timestamp="1590777198237" />
+    <state x="0" y="25" width="866" height="743" key="find.popup" timestamp="1590770391235">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="0" y="25" width="866" height="743" key="find.popup/0.25.1366.743@0.25.1366.743" timestamp="1590770391235" />
+    <state x="427" y="40" width="501" height="713" key="refactoring.ChangeSignatureDialog" timestamp="1590769921942">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="427" y="40" width="501" height="713" key="refactoring.ChangeSignatureDialog/0.25.1366.743@0.25.1366.743" timestamp="1590769921942" />
+    <state x="347" y="175" key="run.anything.popup" timestamp="1590779160439">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="347" y="175" key="run.anything.popup/0.25.1366.743@0.25.1366.743" timestamp="1590779160439" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1590778379761">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.25.1366.743@0.25.1366.743" timestamp="1590778379761" />
+  </component>
+</project>
