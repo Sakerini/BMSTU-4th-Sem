@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f0f0f0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.computergraphic.lab10.fxcontroller.FXMainController">
+
+
+    <center>
+        <VBox>
+            <children>
+                <Pane maxHeight="700.0" maxWidth="700.0" minHeight="700.0" minWidth="700.0" prefHeight="700" prefWidth="700" style="-fx-background-color: #ffffff;">
+                    <children>
+
+                        <Canvas fx:id="canvas" height="700" width="700" />
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                    </VBox.margin>
+                </Pane>
+            </children>
+        </VBox>
+    </center>
+    <right>
+        <VBox fx:id="rightVBox" prefHeight="700.0" prefWidth="323.0" spacing="5.0" style="-fx-background-color: #f0f0f0;" BorderPane.alignment="CENTER">
+
+            <opaqueInsets>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </opaqueInsets>
+
+            <padding>
+                <Insets bottom="10.0" left="5.0" right="15.0" top="25.0" />
+            </padding>
+            <children>
+            <AnchorPane prefHeight="80.0" prefWidth="303.0" style="-fx-background-color: #e5e5e5;">
+               <children>
+                  <Label layoutX="11.0" layoutY="14.0" text="Functiron:" />
+                  <ChoiceBox fx:id="function" layoutX="18.0" layoutY="40.0" prefHeight="26.0" prefWidth="260.0" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </AnchorPane>
+                <AnchorPane style="-fx-background-color: #e5e5e5;">
+                    <children>
+                        <TextField layoutX="184.0" layoutY="39.0" prefHeight="26.0" prefWidth="97.0" promptText="Enter max x" fx:id="xMax" />
+                        <Label layoutX="149.0" layoutY="44.0" style="-fx-text-fill: #404040;" text="max:" />
+                        <TextField layoutX="40.0" layoutY="39.0" prefHeight="26.0" prefWidth="97.0" promptText="Enter min x" fx:id="xMin" />
+                        <Label layoutX="1.0" layoutY="40.0" style="-fx-text-fill: #404040;" text="min:">
+                            <padding>
+                                <Insets left="5.0" top="5.0" />
+                            </padding>
+                        </Label>
+                        <Label layoutX="11.0" layoutY="14.0" text="x:" />
+                        <TextField layoutX="40.0" layoutY="73.0" prefHeight="26.0" prefWidth="240.0" promptText="Enter step for x" fx:id="xStep" />
+                        <Label layoutY="74.0" style="-fx-text-fill: #404040;" text="step:">
+                            <padding>
+                                <Insets left="5.0" top="5.0" />
+                            </padding>
+                        </Label>
+                    </children>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </AnchorPane>
+            <AnchorPane style="-fx-background-color: #e5e5e5;">
+               <children>
+                  <TextField fx:id="zMax" layoutX="184.0" layoutY="39.0" prefHeight="26.0" prefWidth="97.0" promptText="Enter max z" />
+                  <Label layoutX="149.0" layoutY="44.0" style="-fx-text-fill: #404040;" text="max:" />
+                  <TextField fx:id="zMin" layoutX="40.0" layoutY="39.0" prefHeight="26.0" prefWidth="97.0" promptText="Enter min z" />
+                  <Label layoutX="1.0" layoutY="40.0" style="-fx-text-fill: #404040;" text="min:">
+                     <padding>
+                        <Insets left="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="11.0" layoutY="14.0" text="z:" />
+                  <TextField fx:id="zStep" layoutX="40.0" layoutY="73.0" prefHeight="26.0" prefWidth="240.0" promptText="Enter step for z" />
+                  <Label layoutY="74.0" style="-fx-text-fill: #404040;" text="step:">
+                     <padding>
+                        <Insets left="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </AnchorPane>
+            <AnchorPane prefHeight="126.0" prefWidth="303.0" style="-fx-background-color: #e5e5e5;">
+               <children>
+                  <Slider layoutX="41.0" layoutY="32.0" prefHeight="16.0" prefWidth="239.0" fx:id="xRotate" />
+                  <Label layoutX="15.0" layoutY="6.0" text="Rotation:" />
+                  <Label layoutX="22.0" layoutY="31.0" text="x:" />
+                  <Slider fx:id="yRotate" layoutX="41.0" layoutY="57.0" prefHeight="16.0" prefWidth="239.0" />
+                  <Label layoutX="22.0" layoutY="56.0" text="y:" />
+                  <Slider fx:id="zRotate" layoutX="42.0" layoutY="81.0" prefHeight="16.0" prefWidth="239.0" />
+                  <Label layoutX="23.0" layoutY="80.0" text="z:" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="69.0" prefWidth="303.0" style="-fx-background-color: #e5e5e5;">
+               <children>
+                  <Slider fx:id="scale" layoutX="41.0" layoutY="32.0" prefHeight="16.0" prefWidth="239.0" />
+                  <Label layoutX="15.0" layoutY="6.0" text="Scale:" />
+                  <Label layoutX="22.0" layoutY="31.0" text="k:" />
+               </children>
+            </AnchorPane>
+                <AnchorPane prefHeight="40.0" prefWidth="303.0" style="-fx-background-color: #e5e5e5;">
+                    <children>
+                        <Button id="drawButton" layoutX="32.0" layoutY="6.0" onAction="#execute" prefHeight="26.0" prefWidth="230.0" style="-fx-background-color: #d3d3d3; -fx-text-fill: #404040; -fx-background-radius: 12;" text="Execute">
+                            <opaqueInsets>
+                                <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                            </opaqueInsets>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+    </right>
+
+</BorderPane>
